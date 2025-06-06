@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Abhay Parekh,currently pursuing BTECH from G H patel College of Engineering and Technology</h1>
 <h3 align="center">A passionate frontend developer and AI/ML enthusiast from India.</h3>
 <img align="center" alt="Coding" width="930" src="https://as2.ftcdn.net/v2/jpg/05/68/98/15/1000_F_568981524_2irG4VUSs06xbahAihTpkuSfxKkw8FqX.jpg">
-<b><h3>My Badges and Trophies</h3></b><br><br>
+<b><h3>My Badges and Trophies:</h3></b>
 <a href="https://developers.google.com/profile/badges/community/innovators/cloud/2021_member"><img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/2021_member/badge.svg" height=100 widht=100>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abhayp2004" alt="abhayp2004" /></a></p>
 
