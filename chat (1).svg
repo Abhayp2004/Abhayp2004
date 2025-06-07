@@ -1,0 +1,126 @@
+<svg width="450" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="userBubble" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="abhayBubble" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#11998e"/>
+      <stop offset="100%" style="stop-color:#38ef7d"/>
+    </linearGradient>
+    <linearGradient id="aiGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="50%" style="stop-color:#4ecdc4"/>
+      <stop offset="100%" style="stop-color:#45b7d1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="450" height="320" fill="url(#bg)" rx="20"/>
+  
+  <!-- Animated background particles -->
+  <circle cx="50" cy="50" r="2" fill="#4ecdc4" opacity="0.3">
+    <animate attributeName="cy" values="50; 270; 50" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3; 0.8; 0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="100" r="1.5" fill="#ff6b6b" opacity="0.4">
+    <animate attributeName="cy" values="100; 200; 100" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="280" r="2.5" fill="#45b7d1" opacity="0.2">
+    <animate attributeName="cx" values="300; 150; 300" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="450" height="60" fill="#1a1a2e" rx="20"/>
+  <rect x="0" y="40" width="450" height="20" fill="#1a1a2e"/>
+  
+  <!-- Profile avatar with glow -->
+  <circle cx="35" cy="30" r="12" fill="url(#aiGlow)"/>
+  <circle cx="35" cy="30" r="10" fill="#0f0f23"/>
+  <text x="35" y="35" fill="#11998e" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">A</text>
+  
+  <!-- Header content -->
+  <text x="60" y="25" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Abhay</text>
+  <text x="60" y="42" fill="#11998e" font-family="Arial, sans-serif" font-size="11">Web Developer • AI/ML Enthusiast</text>
+  
+  <!-- Status indicators -->
+  <circle cx="400" cy="20" r="4" fill="#11998e">
+    <animate attributeName="opacity" values="1; 0.3; 1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="385" y="40" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="9">Online</text>
+  
+  <!-- Chat messages container -->
+  <g id="messages">
+    <!-- Visitor message 1 -->
+    <g opacity="0">
+      <rect x="80" y="80" width="320" height="40" fill="url(#userBubble)" rx="20"/>
+      <text x="95" y="97" fill="white" font-family="Arial, sans-serif" font-size="12">Hey Abhay! I need help with my React app</text>
+      <text x="95" y="112" fill="white" font-family="Arial, sans-serif" font-size="12">and some ML integration. Can you help?</text>
+      <text x="95" y="125" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="9">Visitor</text>
+      <animateTransform attributeName="transform" type="translate" values="50,0; 0,0" dur="0.6s" begin="1s" fill="freeze"/>
+      <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="1s" fill="freeze"/>
+    </g>
+    
+    <!-- Typing indicator -->
+    <g id="typing" opacity="0">
+      <rect x="50" y="140" width="90" height="30" fill="url(#abhayBubble)" rx="15"/>
+      <circle cx="75" cy="155" r="2.5" fill="white">
+        <animate attributeName="opacity" values="0.3; 1; 0.3" dur="1s" repeatCount="indefinite" begin="2.5s"/>
+      </circle>
+      <circle cx="87" cy="155" r="2.5" fill="white">
+        <animate attributeName="opacity" values="0.3; 1; 0.3" dur="1s" repeatCount="indefinite" begin="2.8s"/>
+      </circle>
+      <circle cx="99" cy="155" r="2.5" fill="white">
+        <animate attributeName="opacity" values="0.3; 1; 0.3" dur="1s" repeatCount="indefinite" begin="3.1s"/>
+      </circle>
+      <animate attributeName="opacity" values="0; 1; 1; 0" dur="3s" begin="2.5s"/>
+    </g>
+    
+    <!-- Abhay's response -->
+    <g opacity="0">
+      <rect x="50" y="140" width="350" height="55" fill="url(#abhayBubble)" rx="20"/>
+      <text x="65" y="157" fill="white" font-family="Arial, sans-serif" font-size="12">Absolutely! I specialize in React development and</text>
+      <text x="65" y="172" fill="white" font-family="Arial, sans-serif" font-size="12">ML integrations. I can help you with TensorFlow.js,</text>
+      <text x="65" y="187" fill="white" font-family="Arial, sans-serif" font-size="12">model deployment, and optimizing performance! 🚀</text>
+      <text x="65" y="202" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="9">Abhay • Web Dev & AI/ML</text>
+      <animateTransform attributeName="transform" type="translate" values="-50,0; 0,0" dur="0.6s" begin="5.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="5.5s" fill="freeze"/>
+    </g>
+    
+    <!-- Visitor follow-up -->
+    <g opacity="0">
+      <rect x="120" y="210" width="280" height="40" fill="url(#userBubble)" rx="20"/>
+      <text x="135" y="227" fill="white" font-family="Arial, sans-serif" font-size="12">Perfect! What's your experience with</text>
+      <text x="135" y="242" fill="white" font-family="Arial, sans-serif" font-size="12">Next.js and Python backends?</text>
+      <text x="135" y="255" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="9">Visitor</text>
+      <animateTransform attributeName="transform" type="translate" values="50,0; 0,0" dur="0.6s" begin="7s" fill="freeze"/>
+      <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="7s" fill="freeze"/>
+    </g>
+    
+    <!-- Final response with tech stack -->
+    <g opacity="0">
+      <rect x="50" y="265" width="380" height="40" fill="url(#abhayBubble)" rx="20"/>
+      <text x="65" y="282" fill="white" font-family="Arial, sans-serif" font-size="12">Extensive! Next.js, FastAPI, Django, PyTorch, and</text>
+      <text x="65" y="297" fill="white" font-family="Arial, sans-serif" font-size="12">cloud deployment. Let's build something amazing! ⭐</text>
+      <text x="65" y="310" fill="rgba(255,255,255,0.7)" font-family="Arial, sans-serif" font-size="9">Abhay</text>
+      <animateTransform attributeName="transform" type="translate" values="-50,0; 0,0" dur="0.6s" begin="8.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="0; 1" dur="0.4s" begin="8.5s" fill="freeze"/>
+    </g>
+  </g>
+  
+  <!-- Tech stack icons (subtle) -->
+  <g opacity="0.1">
+    <text x="420" y="100" fill="#11998e" font-family="Arial, sans-serif" font-size="20">⚛️</text>
+    <text x="420" y="130" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="20">🐍</text>
+    <text x="420" y="160" fill="#4ecdc4" font-family="Arial, sans-serif" font-size="20">🧠</text>
+    <text x="420" y="190" fill="#45b7d1" font-family="Arial, sans-serif" font-size="20">☁️</text>
+  </g>
+  
+  <!-- Restart animation -->
+  <animate attributeName="opacity" values="1; 1; 0; 1" dur="0.5s" begin="11s; 22s" repeatCount="indefinite"/>
+</svg>
