@@ -10,7 +10,7 @@
       fill: #242424;
       font-size: 20px;
       font-family: 'Inter';
-      letter-spacing: -0.02em;
+      letter-spacing: 0.02em;
     }
     
     .emoji {
@@ -259,6 +259,7 @@
     <circle cx="27.4778" cy="20.9773" r="5.02275" fill="#999999">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite" />
     </circle>
+    
     <circle cx="42.8411" cy="20.9773" r="5.02275" fill="#999999">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite" />
     </circle>
@@ -270,8 +271,9 @@
 
   <!-- Hi, I'm Ishan -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
-    <rect width="170" height="42" rx="18.0355" />
+    <rect width="170" height="45" rx="18.0355" />
     <text x="20" y="35">Hi, I'm Abhay </text>
+   
   </g>
 
 
