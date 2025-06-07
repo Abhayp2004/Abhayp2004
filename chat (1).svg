@@ -8,7 +8,7 @@
     }
     text {
       fill: #242424;
-      font-size: 18px;
+      font-size: 20px;
       font-family: 'Inter';
       letter-spacing: -0.02em;
     }
@@ -273,6 +273,7 @@
     <rect width="170" height="42" rx="18.0355" />
     <text x="15" y="27">Hi, I'm Abhay </text>
   </g>
+  <br>
 
   <!-- typing 2 -->
   <g transform="translate(10, 48)" class="typing-2">
@@ -289,16 +290,15 @@
     <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
     </circle>
-
   </g>
-
+<br>
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
     <rect width="420" height="66.1302" rx="18.0355" class="bubble" />
     <text x="20" y="35"> A Final Year CSE Student </text>
     <text x="25" y="50"> Loves Web Dev and AI/ML </text>
   </g>
-
+<br>
   <!-- typing 3 -->
   <g transform="translate(10, 120)" class="typing-3">
   <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
@@ -314,9 +314,7 @@
     <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
       <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite" />
     </circle>
-
   </g>
-
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
     <rect width="380" height="66.1302" rx="18.0355" class="bubble" />
