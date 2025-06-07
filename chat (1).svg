@@ -271,7 +271,7 @@
   <!-- Hi, I'm Ishan -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
     <rect width="170" height="42" rx="18.0355" />
-    <text x="15" y="27">Hi, I'm Abhay </text>
+    <text x="20" y="35">Hi, I'm Abhay </text>
   </g>
 
 
@@ -294,9 +294,9 @@
 
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
-    <rect width="420" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="17" y="28"> A Final Year CSE Student </text>
-    <text x="25" y="50"> Loves Web Dev and AI/ML </text>
+    <rect width="420" height="70" rx="18.0355" class="bubble" />
+    <text x="20" y="29"> A Final Year CSE Student </text>
+    <text x="22" y="50"> Loves Web Dev and AI/ML </text>
   </g>
 
   <!-- typing 3 -->
@@ -318,6 +318,6 @@
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
     <rect width="380" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="17" y="28"> Building webapps and creating values </text>    
+    <text x="17" y="35"> Building webapps and creating values </text>    
   </g>
 </svg>
