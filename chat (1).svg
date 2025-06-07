@@ -319,7 +319,7 @@
   </g>
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
-    <rect width="380" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="400" height="70" rx="18.0355" class="bubble" />
     <text x="17" y="35"> Building webapps and creating values </text>    
   </g>
 </svg>
