@@ -295,7 +295,7 @@
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
     <rect width="420" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="20" y="35"> A Final Year CSE Student </text>
+    <text x="17" y="28"> A Final Year CSE Student </text>
     <text x="25" y="50"> Loves Web Dev and AI/ML </text>
   </g>
 
