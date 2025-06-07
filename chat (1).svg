@@ -295,8 +295,8 @@
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
     <rect width="420" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="15" y="27"> A Final Year CSE Student </text>
-    <text x="15" y="50"> Loves Web Dev and AI/ML </text>
+    <text x="20" y="35"> A Final Year CSE Student </text>
+    <text x="25" y="50"> Loves Web Dev and AI/ML </text>
   </g>
 
   <!-- typing 3 -->
@@ -320,6 +320,6 @@
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
     <rect width="380" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="15" y="27"> Building webapps and creating values </text>    
+    <text x="25" y="50"> Building webapps and creating values </text>    
   </g>
 </svg>
