@@ -320,6 +320,6 @@
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
     <rect width="400" height="70" rx="18.0355" class="bubble" />
-    <text x="17" y="35"> Building webapps and creating values </text>    
+    <text x="17" y="40"> Building webapps and creating values </text>    
   </g>
 </svg>
