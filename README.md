@@ -7,7 +7,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abhayp2004" alt="abhayp2004" /></a></p>
 
 
-<p align="left"> <a href="https://twitter.com/a_parekh55" target="blank"><img src="https://img.shields.io/twitter/follow/a_parekh55?logo=twitter&style=for-the-badge" alt="a_parekh55" /></a> </p>
+<p align="left"> <a href="https://twitter.com/abhxay03" target="blank"><img src="https://img.shields.io/twitter/follow/a_parekh55?logo=twitter&style=for-the-badge" alt="abhxay03" /></a> </p>
 
 - 🌱 I’m currently learning **various ML and development concepts.**
 
